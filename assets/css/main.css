@@ -520,8 +520,17 @@ section.col-xs-12 {
   border-bottom: solid thin rgb(50,48,49);
 }
 
-
 .schedule-event{
+  text-align: left;
+}
+
+#acknowledgements-title{
+  text-align: center;
+  color: white;
+}
+
+.acknowledgements-text{
+  font-size: .8em;
   text-align: left;
 }
 
