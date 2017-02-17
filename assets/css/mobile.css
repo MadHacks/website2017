@@ -107,6 +107,12 @@
         visibility: hidden;
     }
 
+    #acknowledgements-title {
+        text-align: center;
+        color: white;
+        margin-left: 1%;
+    }
+
 }
 
 
