@@ -371,6 +371,17 @@ section.col-xs-12 {
   float: left;
 }
 
+#wacm-img
+{
+  height:230px;
+  background: url('../img/GHC2016_1_edit.jpg');
+  background-size: auto 145%;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  margin-top: 30px;
+  margin-bottom: 15px;
+}
+
 #about-us-large{
   position:relative;
   float: left;
@@ -532,6 +543,10 @@ section.col-xs-12 {
 .acknowledgements-text{
   font-size: .8em;
   text-align: left;
+}
+
+.credits{
+  margin-bottom: 10px;
 }
 
 }
