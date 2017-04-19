@@ -79,6 +79,11 @@
         padding-right:70px;
     }
 
+    #application-text{
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
     #about-us-what-text{
         height:auto;
         margin-bottom:10px;
