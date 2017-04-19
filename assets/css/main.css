@@ -8,6 +8,8 @@ body {
   background-color: rgb(50,48,49);
   font-family: 'Roboto', sans-serif;
   font-size: 18px;
+  overflow-x: hidden;
+  width: 100%;
 }
 
 .outside{
