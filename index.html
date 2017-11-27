@@ -63,6 +63,25 @@
       return t;
     }(document, "script", "twitter-wjs"));
   </script>
+  
+  <!-- Sets up google map -->
+  <script>
+    function initMap() {
+      var uluru = { lat: 43.071495, lng: -89.406558 };
+      var map = new google.maps.Map(document.getElementById('map'), {
+        zoom: 16,
+        center: uluru
+      });
+      var marker = new google.maps.Marker({
+        position: uluru,
+        map: map
+      });
+    }
+
+  </script>
+<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAe9DfnZkp4zlexhjUnIdMDX_jEJJrIMzs&callback=initMap">
+
+</script>
 
 </head>
 
@@ -168,6 +187,23 @@
               before! We're reaching out to the highly dedicated risk-takers, the envelope pushers, and the daredevils. We
               hope to produce a new kind of hackathon: where the winners are chosen by the hackers, and the sponsors feel
               like they are right in the middle of the hacker community itself—rather than on the outside looking in.
+            </div>
+          </div>
+          <div id="about-us-content" class="row">
+            <div id="about-us-who-text" class="col-xs-12">
+              <div id="about-us-large">
+                WHERE
+              </div>
+              <div id="about-us-what-text-text" class="col-xs-12">
+                <div class="row">
+                  <div id="address" class="col-sm-4">
+                    Computer Sciences<br>
+                    1210 W Dayton St<br>
+                    Madison, WI 53706
+                  </div>
+                  <div id="map" class="col-sm-8"></div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
